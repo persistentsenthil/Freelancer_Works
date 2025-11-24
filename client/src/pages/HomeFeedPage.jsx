@@ -146,8 +146,8 @@ export default function HomeFeedPage(){
               Sign in to share updates, discover new opportunities, and connect with your network.
             </Typography>
             <Stack spacing={1.5}>
-              <Button variant='contained' size='large' href='/auth/login'>Sign in</Button>
-              <Button variant='outlined' size='large' href='/auth/signup'>Create an account</Button>
+              <Button variant='contained' size='large' to='/auth/login'>Sign in</Button>
+              <Button variant='outlined' size='large' to='/auth/signup'>Create an account</Button>
             </Stack>
           </CardContent>
         </Card>
